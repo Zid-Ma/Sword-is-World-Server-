@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwordIsWorldServer", "SwordIsWorldServer.csproj", "{CAF2BD13-DB80-4849-8DA0-F720D19EFF49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF2BD13-DB80-4849-8DA0-F720D19EFF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF2BD13-DB80-4849-8DA0-F720D19EFF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF2BD13-DB80-4849-8DA0-F720D19EFF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF2BD13-DB80-4849-8DA0-F720D19EFF49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DFEC205-1160-4121-8831-BA7749C38C33}
+	EndGlobalSection
+EndGlobal
