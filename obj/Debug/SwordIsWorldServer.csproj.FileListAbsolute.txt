@@ -1,0 +1,15 @@
+C:\Users\15468\Desktop\SwordIsWorldServer\bin\Debug\SwordIsWorldServer.exe.config
+C:\Users\15468\Desktop\SwordIsWorldServer\bin\Debug\SwordIsWorldServer.exe
+C:\Users\15468\Desktop\SwordIsWorldServer\bin\Debug\SwordIsWorldServer.pdb
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.csprojAssemblyReference.cache
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.Form1.resources
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.Properties.Resources.resources
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.csproj.GenerateResource.cache
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.csproj.CoreCompileInputs.cache
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.exe
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.pdb
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.FormSet.resources
+C:\Users\15468\Desktop\SwordIsWorldServer\bin\Debug\SwordIsWorldServer.exe.manifest
+C:\Users\15468\Desktop\SwordIsWorldServer\bin\Debug\SwordIsWorldServer.application
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.exe.manifest
+C:\Users\15468\Desktop\SwordIsWorldServer\obj\Debug\SwordIsWorldServer.application
