@@ -70,19 +70,23 @@
             // 
             // buttonOpenServer
             // 
+            this.buttonOpenServer.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonOpenServer.FlatAppearance.BorderSize = 0;
+            this.buttonOpenServer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOpenServer.ForeColor = System.Drawing.Color.White;
             this.buttonOpenServer.Location = new System.Drawing.Point(195, 9);
             this.buttonOpenServer.Name = "buttonOpenServer";
             this.buttonOpenServer.Size = new System.Drawing.Size(150, 75);
             this.buttonOpenServer.TabIndex = 0;
             this.buttonOpenServer.Text = "打开服务器";
-            this.buttonOpenServer.UseVisualStyleBackColor = true;
+            this.buttonOpenServer.UseVisualStyleBackColor = false;
             this.buttonOpenServer.Click += new System.EventHandler(this.buttonOpenServer_Click);
             // 
             // textBoxMain
             // 
             this.textBoxMain.AcceptsReturn = true;
             this.textBoxMain.AcceptsTab = true;
-            this.textBoxMain.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.textBoxMain.BackColor = System.Drawing.Color.DodgerBlue;
             this.textBoxMain.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxMain.ForeColor = System.Drawing.SystemColors.Menu;
             this.textBoxMain.Location = new System.Drawing.Point(3, 3);
@@ -92,6 +96,7 @@
             this.textBoxMain.ReadOnly = true;
             this.textBoxMain.Size = new System.Drawing.Size(630, 344);
             this.textBoxMain.TabIndex = 1;
+            this.textBoxMain.TextChanged += new System.EventHandler(this.textBoxMain_TextChanged);
             // 
             // panelMain
             // 
@@ -117,7 +122,7 @@
             // 
             this.textBoxMainBack.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxMainBack.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxMainBack.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxMainBack.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBoxMainBack.Location = new System.Drawing.Point(3, 3);
             this.textBoxMainBack.MaxLength = 3276;
             this.textBoxMainBack.Multiline = true;
@@ -128,9 +133,10 @@
             // 
             // panelMainLeft
             // 
-            this.panelMainLeft.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panelMainLeft.BackColor = System.Drawing.Color.DodgerBlue;
             this.panelMainLeft.Controls.Add(this.textBoxMain);
             this.panelMainLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMainLeft.ForeColor = System.Drawing.Color.White;
             this.panelMainLeft.Location = new System.Drawing.Point(0, 0);
             this.panelMainLeft.Name = "panelMainLeft";
             this.panelMainLeft.Size = new System.Drawing.Size(633, 350);
@@ -138,7 +144,7 @@
             // 
             // panelMainRight
             // 
-            this.panelMainRight.BackColor = System.Drawing.Color.Aquamarine;
+            this.panelMainRight.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelMainRight.Controls.Add(this.buttonSet);
             this.panelMainRight.Controls.Add(this.labelMemoryFootprintR);
             this.panelMainRight.Controls.Add(this.labelNumberOfPeopleR);
@@ -152,18 +158,23 @@
             // 
             // buttonSet
             // 
-            this.buttonSet.Location = new System.Drawing.Point(11, 312);
+            this.buttonSet.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonSet.FlatAppearance.BorderSize = 0;
+            this.buttonSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSet.ForeColor = System.Drawing.Color.White;
+            this.buttonSet.Location = new System.Drawing.Point(12, 305);
             this.buttonSet.Name = "buttonSet";
             this.buttonSet.Size = new System.Drawing.Size(140, 35);
             this.buttonSet.TabIndex = 1;
             this.buttonSet.Text = "设置";
-            this.buttonSet.UseVisualStyleBackColor = true;
+            this.buttonSet.UseVisualStyleBackColor = false;
             this.buttonSet.Click += new System.EventHandler(this.buttonSet_Click);
             // 
             // labelMemoryFootprintR
             // 
             this.labelMemoryFootprintR.AutoSize = true;
             this.labelMemoryFootprintR.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.labelMemoryFootprintR.ForeColor = System.Drawing.Color.White;
             this.labelMemoryFootprintR.Location = new System.Drawing.Point(84, 35);
             this.labelMemoryFootprintR.Name = "labelMemoryFootprintR";
             this.labelMemoryFootprintR.Size = new System.Drawing.Size(55, 15);
@@ -173,6 +184,7 @@
             // labelNumberOfPeopleR
             // 
             this.labelNumberOfPeopleR.AutoSize = true;
+            this.labelNumberOfPeopleR.ForeColor = System.Drawing.Color.White;
             this.labelNumberOfPeopleR.Location = new System.Drawing.Point(84, 9);
             this.labelNumberOfPeopleR.Name = "labelNumberOfPeopleR";
             this.labelNumberOfPeopleR.Size = new System.Drawing.Size(55, 15);
@@ -182,6 +194,7 @@
             // labelMemoryFootprintL
             // 
             this.labelMemoryFootprintL.AutoSize = true;
+            this.labelMemoryFootprintL.ForeColor = System.Drawing.Color.White;
             this.labelMemoryFootprintL.Location = new System.Drawing.Point(3, 35);
             this.labelMemoryFootprintL.Name = "labelMemoryFootprintL";
             this.labelMemoryFootprintL.Size = new System.Drawing.Size(75, 15);
@@ -191,6 +204,7 @@
             // labelNumberOfPeopleL
             // 
             this.labelNumberOfPeopleL.AutoSize = true;
+            this.labelNumberOfPeopleL.ForeColor = System.Drawing.Color.White;
             this.labelNumberOfPeopleL.Location = new System.Drawing.Point(3, 9);
             this.labelNumberOfPeopleL.Name = "labelNumberOfPeopleL";
             this.labelNumberOfPeopleL.Size = new System.Drawing.Size(75, 15);
@@ -199,6 +213,7 @@
             // 
             // textBoxIP
             // 
+            this.textBoxIP.ForeColor = System.Drawing.SystemColors.Highlight;
             this.textBoxIP.Location = new System.Drawing.Point(60, 13);
             this.textBoxIP.MaxLength = 100;
             this.textBoxIP.Name = "textBoxIP";
@@ -253,7 +268,7 @@
             // 
             // panelDownRight
             // 
-            this.panelDownRight.BackColor = System.Drawing.Color.Aquamarine;
+            this.panelDownRight.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelDownRight.Controls.Add(this.labelTargetIP);
             this.panelDownRight.Controls.Add(this.buttonSend);
             this.panelDownRight.Controls.Add(this.textBoxTargetIP);
@@ -267,6 +282,7 @@
             // labelTargetIP
             // 
             this.labelTargetIP.AutoSize = true;
+            this.labelTargetIP.ForeColor = System.Drawing.Color.White;
             this.labelTargetIP.Location = new System.Drawing.Point(143, 57);
             this.labelTargetIP.Name = "labelTargetIP";
             this.labelTargetIP.Size = new System.Drawing.Size(53, 15);
@@ -275,12 +291,16 @@
             // 
             // buttonSend
             // 
+            this.buttonSend.BackColor = System.Drawing.Color.DodgerBlue;
+            this.buttonSend.FlatAppearance.BorderSize = 0;
+            this.buttonSend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSend.ForeColor = System.Drawing.Color.White;
             this.buttonSend.Location = new System.Drawing.Point(287, 45);
             this.buttonSend.Name = "buttonSend";
             this.buttonSend.Size = new System.Drawing.Size(135, 39);
             this.buttonSend.TabIndex = 7;
             this.buttonSend.Text = "发送";
-            this.buttonSend.UseVisualStyleBackColor = true;
+            this.buttonSend.UseVisualStyleBackColor = false;
             // 
             // textBoxTargetIP
             // 
@@ -299,7 +319,7 @@
             // 
             // panelDownLeft
             // 
-            this.panelDownLeft.BackColor = System.Drawing.Color.Aquamarine;
+            this.panelDownLeft.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelDownLeft.Controls.Add(this.checkBoxIP);
             this.panelDownLeft.Controls.Add(this.checkBoxPort);
             this.panelDownLeft.Controls.Add(this.buttonOpenServer);
@@ -314,6 +334,7 @@
             // checkBoxIP
             // 
             this.checkBoxIP.AutoSize = true;
+            this.checkBoxIP.ForeColor = System.Drawing.Color.White;
             this.checkBoxIP.Location = new System.Drawing.Point(12, 17);
             this.checkBoxIP.Name = "checkBoxIP";
             this.checkBoxIP.Size = new System.Drawing.Size(42, 19);
@@ -324,6 +345,7 @@
             // checkBoxPort
             // 
             this.checkBoxPort.AutoSize = true;
+            this.checkBoxPort.ForeColor = System.Drawing.Color.White;
             this.checkBoxPort.Location = new System.Drawing.Point(12, 56);
             this.checkBoxPort.Name = "checkBoxPort";
             this.checkBoxPort.Size = new System.Drawing.Size(71, 19);
@@ -333,6 +355,7 @@
             // 
             // textBoxPort
             // 
+            this.textBoxPort.ForeColor = System.Drawing.SystemColors.Highlight;
             this.textBoxPort.Location = new System.Drawing.Point(89, 51);
             this.textBoxPort.MaxLength = 100;
             this.textBoxPort.Name = "textBoxPort";
