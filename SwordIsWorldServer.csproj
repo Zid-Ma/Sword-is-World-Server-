@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -74,7 +74,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Script\Data.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,15 +87,12 @@
     <Compile Include="FormSet.Designer.cs">
       <DependentUpon>FormSet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Script\Update.cs" />
-    <Compile Include="Script\Verification_Information.cs" />
-    <Compile Include="Script\Program.cs" />
+    <Compile Include="InformationVerification.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Script\RecordModify.cs" />
-    <Compile Include="Script\Data_Save.cs" />
-    <Compile Include="Script\SendToClient.cs" />
-    <Compile Include="Script\Verification.cs" />
-    <Compile Include="Script\Code_Verification.cs" />
+    <Compile Include="RecordModify.cs" />
+    <Compile Include="SaveData.cs" />
+    <Compile Include="SendToClient.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

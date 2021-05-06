@@ -53,7 +53,7 @@ namespace SwordIsWorldServer
             mixLength = 0;
             string wl = null;
             wl = Data.WhiteList;
-            Data.WhiteList_Array.Clear();//先清空数组信息
+            Data.ArrayWhiteList.Clear();//先清空数组信息
             if (wl != null)
             {
                 for (int i = 0; i < wl.Length; i++)//遍历整个白名单
@@ -61,17 +61,17 @@ namespace SwordIsWorldServer
                     if (wl.Substring(i, 1) == "\r" && (wl.Substring(i + 1, 1)) == "\n")//判断是否有换行
                     {
                         string d = wl.Substring(mixLength, i + 1 - mixLength);
-                        Data.WhiteList_Array.Add(d);//剪下一整行的信息添加进白名单数组
+                        Data.ArrayWhiteList.Add(d);//剪下一整行的信息添加进白名单数组
                         mixLength = i + 2;//进入下一行
                     }
                     else if (wl.Length == i + 1)//如果到达了最后一行
                     {
                         string d = wl.Substring(mixLength, i + 1 - mixLength);
-                        Data.WhiteList_Array.Add(d);
+                        Data.ArrayWhiteList.Add(d);
                     }
                 }
             }
-            foreach(string str in Data.WhiteList_Array)//遍历信息
+            foreach(string str in Data.ArrayWhiteList)//遍历信息
             {
                 MessageBox.Show(str);
             }
